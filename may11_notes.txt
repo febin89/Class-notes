@@ -1,0 +1,16 @@
+/etc-configuration files
+	info regarding system working
+/home-contains login directory(access specific to each user)
+/lib-contain libraries
+	so-shared object file
+	(libraries)
+	libc.so----->std c library
+	(Shared object files are dynamically linked)
+	(if that file removed,nothig will work..its a dynamically linked file)
+/proc-(process directory)low level info regarding mcpu,peripherals,hardware 
+	each numbered folder---->process id(folder contains info about process)
+/root-login directory of super user
+/tmp=holds many temporary files
+linux kernel source code--kernel.org
+cd-goes to login directory
+pwd-current working directory
