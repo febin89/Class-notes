@@ -1,0 +1,24 @@
+*>-standard output redirectioin
+	Any command can be redirected
+*>>-append
+
+*grep-used for regular expression pattern matching
+*wc -l ---only lines counted
+ wc -w ---only words counted
+ wc -c ---only characters
+*pattern starting with a '^' sign ---->words starting with that pattern
+*metacharacters- ^,*,$ 
+*$ in the last -->pattern comes in the end
+ 4 letter words---'^....$'
+*pipe --cmd1|cmd2
+	cmd1 should be producer and cmd2 should be a consumer
+*<-standard input redirection
+*PID 1-->init (very first program kernel starts)
+*multi stage pipeline
+*ulimit -a-shows certain system limits
+*some Unix like systems:freebsd(berkeley software distribution),openbsd,netbsd
+sun-->solaris,ibm,hp
+*Unix wasfound in 1970s by at&t bell labs
+*ls a*-list of all files starting with a
+ echo a*- "  "
+*quoting suppresses metacharacter expansion
