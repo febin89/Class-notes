@@ -1,0 +1,30 @@
+*Use no interfaces,only commandline
+*Use vim/emacs,not gedit
+*Various commands
+	1.ls-list directories
+		ls -l  --list with access rights,date,size etc
+	2.mkdir-to create directory
+	3.cp-to copy file
+	4.rm-to remove file
+	5.mv-to rename a file
+	6.file -to disinguish between a file and directory
+	7.cd -change directory
+	8.uname -a -linux distribution details
+	9.lsb_release -a -lsb modules
+	10.lsusb-list usb devices
+	11.lscpu-list cpu specifications
+*kernel-core of linux os
+*/-root directory
+ Navigating through root directory
+	1./bin-holds machine code of commands
+	2./boot-holds kernel code needed for booting
+	3./dev-location of special or device files
+		(first letter in -rwx--- implies )
+		c-character special
+		b-block special
+		d-directory
+		--file
+*Some websites to refer
+	stackoverflow.com
+	news.ycombinator.com  (hacker news)
+	lwn.net (linux weekly news)
