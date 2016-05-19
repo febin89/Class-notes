@@ -1,0 +1,22 @@
+*Shell is a command interpreter,it also behaves as a programming language
+*PATH is a colon separated fields of directories
+*Internal commands-built right into the shell
+ external commands-have to load some executable files(eg:date,vi)
+*Shell checks whether it is an internal command,if yes thenlooks up the folder given in the path in that order
+*Shell will not lookup in the current folder by default ,only through those given in PATH
+
+*add '.' to path-->shell will lookup in the current folder
+ by default,no '.' in PATH.why?
+*To automate PATH changes,add PATH to eport PATH in .bashrc file in login    directory
+
+*'.' files are not shown by ls command
+*why do you have to use shell script?To run commands faster,
+	Many commands are lengthy
+*When shell runs a shell script,it first creates a copy of itself(subshell)
+* Script is executed by the subshell,SO when you run exit,you exit from the   subshell.The parent shell still in memory
+*source filename-no subshell created,script is executed in the current shell
+*Shell-a family of programs for command interpreattion
+	eg:csh,ksh,zsh,bash
+*bash-bourne again shell,derivative of UNix shell 'sh'
+*ssh-for remote login
+edx.org
