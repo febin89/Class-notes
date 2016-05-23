@@ -1,0 +1,5 @@
+*ifconfig-info regarding network interfaces on systeim
+*loopback address-127.0.0.1
+*Shell is a specialized language used to manage programs,files etc
+*Backquote used to interpret string as command while assigning to a variable*expr used for arithmetic calculationis
+
