@@ -1,6 +1,0 @@
-*true is a program with exit status 0
-*false is a program with exit status 1
-*Shell interperets 0 as true and 1/non-zero as false
-*part after 'while' in a shell pgm is a pgm(exit status is true/0)
-*Successfully executed commands have exit status 0
-*to suppress programs after while, redirect to /dev/null
