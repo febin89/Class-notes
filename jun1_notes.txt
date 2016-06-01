@@ -1,0 +1,9 @@
+*pure functional language-haskell(all datastructures are immutable)
+	c-everything is mutable
+*Mutability in conjuction with aliasing makes it hard to reason about the behavior of your program
+*to avoid performance issues,mutable data structures also available in python
+*single element tuple created as eg:a=(1,)
+*all elements in a set are distinctand not ordered.It is mutable
+*in-is auniversal membership operator
+*set comprehensions are also possible
+
