@@ -1,0 +1,17 @@
+Python
+*written in C
+*dynamically typed very high level language
+	-no variable declaration
+	-Types are assigned at runtime
+eg:ruby
+C,C++ ,Java-statically typed (explicitly declare types)
+*not used for very lowlevel programming and performance intensive appplications
+*REPL (Read Eval Print Loop)
+*compilation and execution model
+	1)compilation to byte code
+		-.py file checked for syntatical correctness
+		-converted to byte code/virtual machine code(wont run in any cpu)
+		virtual machine makes language platform independent
+		
+	2)byte code interpretation
+		-written in C	

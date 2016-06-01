@@ -1,0 +1,20 @@
+*Aliasing does not affect immutable data structures
+*a.sort() mutates a,whereas sorted(a) returns a new sorted list
+*list comprehensions
+	eg:[x*x for x in a]
+  when using repetitions:	
+	1)list comprehension
+	2)for loop
+	3)while loop
+*tuple packing/unpacking-2 or more variables used while iterating
+*dictionary,associative array ,map,hash-store structured data
+*Dictionary is a mutable data structure.No ordering.
+*tuple is immutable
+*in Dictionary,key cannot be dictionary or tuple
+Keys of a dict possible:int,string,tuple
+Not possible-list,dict
+*Keys must be immutable,Values can be anything
+*Dictionary is implemented as a hash table.
+	When mutated,the hashing process hashes to another value which is complicated
+
+*dictionary comprehensions also present

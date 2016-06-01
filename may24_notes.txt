@@ -1,0 +1,29 @@
+du-disk usage
+why we prefer c n c++ to other languages-most low level interaction with hardware in these languages
+mozilaa rust is a growing language similar to C
+cc -v ---version number of gcc
+cc -E ---does preprocessing and macro expansion
+cc -S ---generate assembly code in .s file
+cc -c ---create object code in .o file
+	.o file is not executable because the file is not complete
+.o,.so---->/usr/lib
+	contains libraries like printf etc.
+	.o file has to be linked with standard c library libc.so
+	(linking)
+phases of compilation-
+	1)Preprocessing
+	2)Compilation proper 
+	3)Assembling  -.s .o
+	4)Linking---a.out
+
+cc name1.c -0 name2 --store executable file in different name
+
+Compilation phase is the most complicated phase
+GCC-GNU C COmpiler
+	optimizing compiler-
+		c source code->assembly language code
+		can be done in multiple ways
+		this compiler chooses which is fastest
+cc -03 --generates highly optimized code
+	retargetable compiler
+	
