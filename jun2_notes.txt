@@ -1,0 +1,12 @@
+time complexity-relates the time taken by the program in relation to the size of program.eg:big-O notation
+O(1)-constant time taken
+	eg:indexing of array
+	a[i]
+	x<---(base_add+i*4)
+*Membership testing on a 
+	-list is O(N)
+	-tuple is O(N)
+	-set is O(1)
+	---set is implemented internally as a hash table
+	hash table membershi ps O(1)
+	-dictionary is O(1)

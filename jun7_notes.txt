@@ -1,0 +1,15 @@
+*md5 checksum-used to check file's integrity.
+in a list a=[1.2.3...]
+	worst case:O(N) for 'in' operator --->called linear search
+*32 bit---int is 4 bytes
+*for a program,initially only a fixed amount of memory
+Once started running,more is needed.
+pgm has to request for more to the os.
+*In c,malloc is used(Manual memory management)
+local variable-when function starts,memory is allocated.freed when function ends
+global-when program starts,memory is allocated,freed when pgm ends
+data--locals,globals,malloced blocks
+*if no free is used,memory leak occurs
+*High level languages like Python,Java,Perl,LISP,Ruby-automatic memory management	
+*AUtomatic memory management in C can be done using additional libraries	
+	 
