@@ -1,0 +1,12 @@
+Let a=b=[1,2,3]
+a is b--checks whether a and b pointing to same object in memory(object identity)
+a==b--checks whether they have same content(value identity)
+id(a) returns a unique value.if id(a)=id(b)--->points to same objecti
+b=a[:] is a shallow copy
+	-copies whatever in a to b
+deep copy-creates copies for even reference
+pylint-a QA tool,detects some problems,checks code for style issues
+	Lint-analsye C code and spot issues
+if we do from math import *,the local functions may override them.So use import math
+#!/usr/bin/python-(contains m/c code of python) if added to the first line of pgm,it can be run using ./(for any programming language)
+sys.argv-contains commandline arguments
