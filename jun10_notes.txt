@@ -1,10 +1,11 @@
 *df-shows information regarding disk
  free-shows information about memory
 *swapon-to enable swap
-link of a file-crreates a new directory entry,no data is copied
+*link of a file-crreates a new directory entry,no data is copied.Inode numbers are same for both files
+*link count-count of how many references are pointing to that disk block
 *copying a file-new disk blocks are allocated
 ln -s a b-symbolic link
-	(find out more)
+	 
 *inode-disk data structure holding info about file except name like size,dat e/time,ownership,permissions
 *directory-disk data structure contains list of filenames and inode numbers
  disk contains inode table-array of inodes
