@@ -1,0 +1,20 @@
+*df-shows information regarding disk
+ free-shows information about memory
+*swapon-to enable swap
+link of a file-crreates a new directory entry,no data is copied
+*copying a file-new disk blocks are allocated
+ln -s a b-symbolic link
+	(find out more)
+*inode-disk data structure holding info about file except name like size,dat e/time,ownership,permissions
+*directory-disk data structure contains list of filenames and inode numbers
+ disk contains inode table-array of inodes
+ inode number-index to the inode table to identify an inode
+*When a file is accessed,it looksup in the directory for the filename inode  pair and indexed the inode table and identifies a unique inode
+ inode holds the address of the data blocks of the file
+ os accesses the blocks and read/write data
+*sed-stream editor
+*awk-text processing tools
+*Variants o f grep:egrep,fgrep
+*Daemon-backgrouund process
+*Checksum-to verify the integrity of files
+*dd-device to device copy command
