@@ -1,0 +1,2 @@
+once read() is used once,the next time when used,it returns empty string.Has to open the file again
+wc with each line having multiple words,use seek
